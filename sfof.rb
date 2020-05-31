@@ -6,10 +6,10 @@ class SFoF < Formula
   url "https://github.com/sfarrens/sfof/archive/v4.0_beta.tar.gz"
 
   # List dependencies
-  depends_on "libomp" => :build
   depends_on "cmake" => :build
-  depends_on "cfitsio" => :build
-  depends_on "boos" => :build
+  depends_on "libomp"
+  depends_on "cfitsio"
+  depends_on "boost"
 
   def install
     
