@@ -1,6 +1,6 @@
 # Homebrew formula for SFoF
 
-class SFoF < Formula
+class sfof < Formula
   desc "Super Friends-of-Friends (SFoF): Galaxy Cluster Detection Algorithm"
   homepage "https://github.com/sfarrens/sfof"
   url "https://github.com/sfarrens/sfof/archive/v4.0_beta.tar.gz"
