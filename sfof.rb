@@ -8,16 +8,15 @@ class Sfof < Formula
 
   # List dependencies
   depends_on "cmake" => :build
-  depends_on "libomp"
   depends_on "cfitsio"
   depends_on "boost"
+  depends_on "libomp"
 
   def install
-    
+
     system "cmake", ".", *std_cmake_args
     system "make"
     system "make install"
 
   end
-
 end
