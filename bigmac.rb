@@ -10,6 +10,8 @@ class Bigmac < Formula
   depends_on "libomp"
 
   def install
-    system "cp *.cmake /usr/local/lib/cmake"
+    system "mkdir lib"
+    system "mkdir lib/cmake"
+    system "cp *.cmake lib/cmake"
   end
 end
