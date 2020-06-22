@@ -4,7 +4,7 @@ class Bigmac < Formula
   desc "macOS configuration parameters"
   homepage "https://github.com/sfarrens/BigMac"
   url "https://github.com/sfarrens/BigMac/archive/v0.0.0_beta.tar.gz"
-  sha256 "7d8c2238ca43be7461aa2968f85af9ad4a5df5e9"
+  sha256 "db78a3c14b466c0ad453ddec96e4ab3749c198eee1533a98bb0c93210a0a74fb"
 
   # List dependencies
   depends_on "libomp"
