@@ -3,7 +3,7 @@
 class Bigmac < Formula
   desc "macOS configuration parameters"
   homepage "https://github.com/sfarrens/BigMac"
-  url "https://github.com/sfarrens/BigMac/archive/v0.0.3_beta.tar.gz"
+  url "https://github.com/sfarrens/BigMac/archive/v0.0.4_beta.tar.gz"
   sha256 ""
 
   # List dependencies
