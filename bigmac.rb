@@ -10,7 +10,7 @@ class Bigmac < Formula
   depends_on "libomp"
 
   def install
-    system "cmake", "."
+    system "cmake", ".", *std_cmake_args
     system "make"
     system "make install"
   end
