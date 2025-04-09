@@ -3,8 +3,8 @@
 class Bigmac < Formula
   desc "macOS configuration parameters"
   homepage "https://github.com/sfarrens/bigmac"
-  url "https://github.com/sfarrens/bigmac/archive/0.0.6.tar.gz"
-  sha256 "c895a8e109ecdc84f2e9d0acfa9f217c10fe6d72d8f456097c7499cc92dc078f"
+  url "https://github.com/sfarrens/bigmac/archive/0.0.7.tar.gz"
+  sha256 "be43c4cd5eacd27b2d98e5c9517a7f9f487d414d263aae0fbc1c0e5112182378"
   license "MIT"
 
   # List dependencies
